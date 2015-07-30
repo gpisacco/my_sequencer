@@ -1,0 +1,8 @@
+/.idea/
+/.Python
+/api/__pycache__/
+*.pyc
+/bin/
+/include/
+/lib/
+/local/
