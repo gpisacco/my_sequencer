@@ -17,7 +17,7 @@ server {
         uwsgi_read_timeout 1800;
         uwsgi_send_timeout 300;
         uwsgi_pass unix:///tmp/uwsgi-plf.sock;
-        include     /var/data/plf/api/uwsgi_params;
+        include     /var/data/my_sequencer/scripts/uwsgi_params;
     }
 
 }
