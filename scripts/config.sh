@@ -22,3 +22,4 @@ sudo cp my_sequencer.ini /etc/uwsgi/apps-enabled/
 sudo service mongodb start
 sudo service uwsgi start
 sudo service nginx start
+tail -f /var/log/lastlog #ugly way to avoid configuring supervidord
