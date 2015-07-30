@@ -1,6 +1,6 @@
 #!/bin/bash
-git pull git://github.com/gpisacco/my_sequencer.git /var/data/my_sequencer
-cd /var/data/my_sequencer/
+cd /var/data/my_sequencer
+git pull
 
 # virtualenv creation
 mkdir local
