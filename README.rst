@@ -8,10 +8,10 @@ The API is simple, to install the docker container run :
     $ curl -sSL https://raw.githubusercontent.com/gpisacco/my_sequencer/master/scripts/base.sh | sh
 
 All you need to bring the API online is to create a docker container
-it  gets the code from git , deploys it and runs a small curl script
+it  gets the code from git , deploys it and runs a small curl checking script
 (the computer needs to have docker installed)
 
-To run the test scripts :
+To run the unit test scripts :
 
 .. code-block:: console
 
