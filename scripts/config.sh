@@ -1,5 +1,5 @@
 #!/bin/bash
-git clone git://github.com/gpisacco/my_sequencer.git /var/data/my_sequencer
+git pull git://github.com/gpisacco/my_sequencer.git /var/data/my_sequencer
 cd /var/data/my_sequencer/
 
 # virtualenv creation
