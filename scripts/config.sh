@@ -18,5 +18,6 @@ sudo rm /etc/nginx/sites-enabled/default
 
 # nginx config
 sudo cp my_sequencer.ini /etc/uwsgi/apps-enabled/
-sudo service uwsgi restart
-sudo service nginx restart
+sudo service mongodb start
+sudo service uwsgi start
+sudo service nginx start
