@@ -1,1 +1,0 @@
-__author__ = 'macuser'
